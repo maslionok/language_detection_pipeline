@@ -1,0 +1,17 @@
+{
+  "auto_map": {
+    "AutoConfig": "configuration_stacked.ImpressoConfig"
+  },
+  "custom_pipelines": {
+    "lang-ident": {
+      "impl": "lang_ident.LangIdentPipeline",
+      "pt": [
+        "ExtendedMultitaskModelForTokenClassification"
+      ],
+      "tf": []
+    }
+  },
+  "filename": "LID-40-3-2000000-1-4.bin",
+  "model_type": "floret",
+  "transformers_version": "4.45.2"
+}
